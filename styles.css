@@ -1,0 +1,263 @@
+.header {
+  height: 470px;
+  background-color: rgb(28, 28, 87);
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  font-size: 70px;
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+}
+.Name {
+  float: left;
+  margin-top: 70px;
+  margin-left: 80px;
+  margin-bottom: 0;
+}
+.Title {
+  float: left;
+  margin-left: 70px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+h4 {
+  text-align: center;
+  color: white;
+  font-size: 55px;
+  font-weight: 400;
+  font-family: "Caveat", cursive;
+  margin-top: 10px;
+}
+.textbox {
+  width: 800px;
+  margin-left: 80px;
+}
+.textbox p {
+  text-align: left;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.headerImage img {
+  position: absolute;
+  margin-left: 100px;
+}
+.headrule1 {
+  width: 800px;
+  color: white;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 70px;
+}
+
+.headrule {
+  width: 800px;
+  color: white;
+  position: absolute;
+  margin-top: 370px;
+  margin-left: -1px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+.featuredSection {
+  background-color: rgb(236, 247, 243);
+  height: 1000px;
+}
+
+.featuredProjects {
+  height: 800px;
+  margin-left: 205px;
+}
+
+.featuredHeadline {
+  color: rgb(28, 28, 87);
+  text-align: left;
+  font-size: 55px;
+  font-weight: 500;
+}
+.featuredText {
+  color: rgb(28, 28, 87);
+  text-align: left;
+  margin-top: -20px;
+}
+.featuredcol2 {
+  display: flex;
+}
+.featuredcol2 img {
+  float: left;
+  padding: 5px;
+  cursor: pointer;
+}
+.featuredText2 {
+  color: rgb(28, 28, 87);
+  margin-left: 20px;
+  text-align: left;
+  cursor: pointer;
+  width: 700px;
+  margin-top: 5px;
+}
+.learnButton {
+  background-color: rgb(28, 28, 87);
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  height: 40px;
+  border: none;
+  padding: 8px;
+  margin-top: 26px;
+  cursor: pointer;
+}
+
+hr {
+  border: 0.5px dashed;
+  color: black;
+  margin-left: 5px;
+  width: 900px;
+}
+.featuredImages2 {
+  float: left;
+}
+.featuredImages2 img {
+  padding: 5px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.featuredText22 {
+  color: rgb(28, 28, 87);
+  text-align: left;
+  line-height: 25px;
+  margin-left: 170px;
+  margin-top: 5px;
+}
+.rule2 {
+  width: 900px;
+}
+
+/*WORK EXPERIENCE*/
+.workExperienceSection {
+  background-color: #a1c6d7;
+  height: 800px;
+}
+.workExperience {
+  height: 800px;
+  margin-left: 205px;
+}
+
+.workHeadline {
+  color: rgb(28, 28, 87);
+  text-align: left;
+  font-size: 55px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.workText {
+  color: rgb(28, 28, 87);
+  text-align: left;
+  margin-top: -17px;
+}
+.workHistory {
+  display: flex;
+  flex-basis: 50%;
+  width: 850px;
+}
+.InstructorHead {
+  width: 400px;
+}
+
+.InstructorHeadText {
+  float: left;
+  text-align: left;
+  margin-right: 5px;
+  color: rgb(28, 28, 87);
+  line-height: 25px;
+}
+.InstructorBody {
+  float: right;
+  text-align: left;
+  margin-left: 20px;
+  color: rgb(28, 28, 87);
+  line-height: 20px;
+}
+.workHistory2 {
+  display: flex;
+  flex-basis: 50%;
+  width: 850px;
+}
+.WriterHead {
+  width: 400px;
+}
+
+.WriterHeadText {
+  float: left;
+  text-align: left;
+  margin-right: 5px;
+  color: rgb(28, 28, 87);
+  line-height: 25px;
+}
+.WriterBody {
+  float: right;
+  text-align: left;
+  margin-left: -160px;
+  color: rgb(28, 28, 87);
+  line-height: 20px;
+}
+
+.EducationSection {
+  background-image: url(images/joanna-kosinska-unsplash\ -\ Copy.jpg);
+  background-size: cover;
+  background-position: top right;
+  height: 600px;
+  padding-bottom: 100px;
+}
+
+.Education {
+  height: 400px;
+  margin-left: 205px;
+}
+.Education h5 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.EducationHead {
+  color: rgb(28, 28, 87);
+  text-align: left;
+  font-size: 55px;
+  font-weight: 500;
+  margin-top: 50px;
+  font-family: "Caveat", cursive;
+}
+footer {
+  background-color: #343434;
+  height: 250px;
+}
+footer h3 {
+  font-family: "Caveat", cursive;
+  color: white;
+  text-align: center;
+}
+footer ul {
+  text-align: center;
+  margin-top: -40px;
+}
+footer li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 8px;
+  font-family: "Montserrat", sans-serif;
+}
+footer a {
+  color: yellow;
+  text-decoration: none;
+}
